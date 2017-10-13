@@ -74,7 +74,7 @@
   }
   function get_MP3()
   {
-  	var mp3Url = "https://ox8e1wv8q.bkt.clouddn.com/music"+$mp3Num+".mp3";
+  	var mp3Url = "http://ox8e1wv8q.bkt.clouddn.com/music"+$mp3Num+".mp3";
   	 $.ajax({
 		  url: mp3Url,
 		  type: 'GET',
