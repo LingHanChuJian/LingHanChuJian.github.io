@@ -17,6 +17,7 @@
   function class_click(playlist){
   	var $ismusic = true;
   	var $num = 1;
+    var playlistlen = playlist.length;
   	// alert(playlistlen);
   	var music_audio = $('<audio id="audio" autoplay="autoplay" src='+playlist[$num]+' volume="">--!版本太低.</audio>');
   	$("#music").append(music_audio);
